@@ -10,7 +10,7 @@
 #SingleInstance ; only a single inctance of the script is allowed
 #UseHook        ; use keyboard hook instead of the windows API function RegisterHotkey
 
-TraySetIcon "favicon.ico"
+TraySetIcon "tray-icon.ico"
 A_IconTip := "PIP Management hotkeys for Elite Dangerous"
 
 SendMode "Event"   ; set mode to "Event" to use SetKeyDelay
@@ -68,7 +68,5 @@ F4:: {
   Send "{Down}{Left 2}{Right}{Left}"
   SoundPlay "audio/Defense-Mode-Engaged.wav"
 }
-
-
 
 #HotIf
