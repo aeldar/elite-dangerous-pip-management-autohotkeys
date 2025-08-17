@@ -69,4 +69,20 @@ F4:: {
   SoundPlay "audio/Defense-Mode-Engaged.wav"
 }
 
+;-------- Additional hotkeys --------
+^d:: {
+  Send "{1}{e 2}"
+  Sleep 200
+  Send "{d}"
+  Sleep 200
+  Send "{Space}"
+  Sleep 200
+  Send "{q 2}"
+  ; exit menu
+  Send "{Backspace}"
+  Sleep 200
+  ; set speed 0%
+  Send "{Backspace}"
+}
+
 #HotIf
