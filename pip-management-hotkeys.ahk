@@ -79,7 +79,7 @@ F4:: {
   Sleep 200
   Send "{q 2}"
   ; exit menu
-  Send "{Backspace}"
+  Send "{1}"
   Sleep 200
   ; set speed 0%
   Send "{Backspace}"
