@@ -24,49 +24,49 @@ EDTitle := "Elite - Dangerous (CLIENT)"
 ; Dodge_mode : 0.5SYS/4ENG/1.5WEP
 F1:: {
   Send "{Down}{Left}{Up 3}{Right 2}{Up}"
-  SoundPlay "Dodge-Mode-Engaged.wav"
+  SoundPlay "audio/Dodge-Mode-Engaged.wav"
 }
 
 ; Flee_mode : 2SYS/4ENG/0WEP
 ^F1:: {
   Send "{Down}{Up 2}{Left}{Up}"
-  SoundPlay "Flee-Mode-Engaged.wav"
+  SoundPlay "audio/Flee-Mode-Engaged.wav"
 }
 
 ; Combat_mode : 0.5SYS/1.5ENG/4WEP
 F2:: {
   Send "{Down}{Left}{Right 3}{Up 2}{Right}"
-  SoundPlay "Combat-Mode-Engaged.wav"
+  SoundPlay "audio/Combat-Mode-Engaged.wav"
 }
 
 ; Combat2_Combat mode : -SYS/2ENG/4WEP
 ^F2:: {
   Send "{Down}{Up}{Right 3}"
-  SoundPlay "Secondary-Combat-Mode-Engaged.wav"
+  SoundPlay "audio/Secondary-Combat-Mode-Engaged.wav"
 }
 
 ; Pursuit mode : 2SYS/1ENG/3WEP
 F3:: {
   Send "{Down}{Up}{Right 3}{Left 2}"
-  SoundPlay "Pursuit-Mode-Engaged.wav"
+  SoundPlay "audio/Pursuit-Mode-Engaged.wav"
 }
 
 ; Offense_mode : 3SYS/-ENG/3WEP
 ^F3:: {
   Send "{Down}{Left}{Right}{Left}{Right}"
-  SoundPlay "Offense-Mode-Engaged.wav"
+  SoundPlay "audio/Offense-Mode-Engaged.wav"
 }
 
 ; Shields_mode : 4SYS/2ENG/-WEP
 F4:: {
   Send "{Down}{Left 2}{Up}{Left}"
-  SoundPlay "Shield-Mode-Engaged.wav"
+  SoundPlay "audio/Shield-Mode-Engaged.wav"
 }
 
 ; Defense_mode : 4SYS/-ENG/2WEP
 ^F4:: {
   Send "{Down}{Left 2}{Right}{Left}"
-  SoundPlay "Defense-Mode-Engaged.wav"
+  SoundPlay "audio/Defense-Mode-Engaged.wav"
 }
 
 
