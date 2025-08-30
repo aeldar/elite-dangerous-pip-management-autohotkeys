@@ -14,7 +14,7 @@ TraySetIcon "tray-icon.ico"
 A_IconTip := "PIP Management hotkeys for Elite Dangerous"
 
 SendMode "Event"   ; set mode to "Event" to use SetKeyDelay
-SetKeyDelay 10, 10 ; the default Delay and PressDuration for Event mode is 10, -1
+SetKeyDelay 30, 50 ; the default Delay and PressDuration for Event mode is 10, -1
 
 EDAppClass := "ahk_class FrontierDevelopmentsAppWinClass"
 EDTitle := "Elite - Dangerous (CLIENT)"
