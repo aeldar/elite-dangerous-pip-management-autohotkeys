@@ -1,6 +1,11 @@
-# PIP Management hotkeys for Elite Dangerous
+# Elite Dangerous hotkeys
 
-A script for AutoHotKey to effectively manage power in Elite DAngerous with custom hotkeys.
+AutoHotKey scripts to add useful hotkeys to Elite Dangerous.
+
+## AutoHotKey Scripts
+
+- PIP Management: script to effectively manage power within Power Distribution (PIPs).
+- Sell 1-by-1: script to continuously sell 1 unit of cargo at a time, until stopped or emptied.
 
 ## Prerequisites
 

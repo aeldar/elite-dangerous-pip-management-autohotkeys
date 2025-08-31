@@ -10,7 +10,7 @@
 #SingleInstance ; only a single inctance of the script is allowed
 #UseHook        ; use keyboard hook instead of the windows API function RegisterHotkey
 
-TraySetIcon "tray-icon.ico"
+TraySetIcon "pip-management.ico"
 A_IconTip := "PIP Management hotkeys for Elite Dangerous"
 
 SendMode "Event"   ; set mode to "Event" to use SetKeyDelay
