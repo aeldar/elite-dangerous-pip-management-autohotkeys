@@ -32,25 +32,28 @@ F9:: {
 	Loop {
 	  ; Enter selling screen
 	  Send "{Enter}"
-	  Sleep 1000
+	  Sleep 2000
 	  ; Go up, just in case
 	  Send "{Up}"
-	  Sleep 1000
+		Sleep 500
+		; Go up once again, just in case
+		Send "{Up}"
+	  Sleep 2000
 	  Send "{Left down}"
 	  Sleep 3000
 	  Send "{Left up}"
-	  Sleep 1000
+	  Sleep 1500
 	  Send "{Right}"
-	  Sleep 1000
+	  Sleep 1500
 	  Send "{Down}"
-	  Sleep 1000
+	  Sleep 1500
 	  ; Sell one tonn
 	  Send "{Enter}"
-	  Sleep 2500
+	  Sleep 3000
 	  
 	  ; some strange pattern to prevent bugs
 	  Send "{Down}"
-	  Sleep 1000
+	  Sleep 1500
 	  Send "{Up}"
 	  Sleep 2000
     } Until (StopLoop)
