@@ -35,27 +35,30 @@ F9:: {
 	  Sleep 2000
 	  ; Go up, just in case
 	  Send "{Up}"
-		Sleep 500
-		; Go up once again, just in case
+		Sleep 200
+		; Go up once again, just in case, as this is critical
 		Send "{Up}"
 	  Sleep 2000
 	  Send "{Left down}"
 	  Sleep 3000
 	  Send "{Left up}"
-	  Sleep 1500
+	  Sleep 300
 	  Send "{Right}"
-	  Sleep 1500
+	  Sleep 300
 	  Send "{Down}"
-	  Sleep 1500
+	  Sleep 300
 	  ; Sell one tonn
 	  Send "{Enter}"
-	  Sleep 3000
+		Sleep 10
+		; Exit very fast
+		Send "{Backspace}"
+	  Sleep 2000
 	  
 	  ; some strange pattern to prevent bugs
-	  Send "{Down}"
-	  Sleep 1500
-	  Send "{Up}"
-	  Sleep 2000
+	  ; Send "{Down}"
+	  ; Sleep 1500
+	  ; Send "{Up}"
+	  ; Sleep 2000
     } Until (StopLoop)
   
 }
