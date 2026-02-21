@@ -1,6 +1,6 @@
 ; AutoHotKey script
 ; 2025-08-31
-; aeldar8 <eldar.aliyev8@gmail.com> aka CMDR Aeldar8
+; CMDR Aeldar8
 ;-----------------------
 ; Sell selected good on-by-one on a market. A Hotkey for Elite Dangerous
 ;-----------------------

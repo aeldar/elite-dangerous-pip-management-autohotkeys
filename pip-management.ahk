@@ -1,6 +1,6 @@
 ; AutoHotKey script
 ; 2025-08-17
-; aeldar8 <eldar.aliyev8@gmail.com> aka CMDR Aeldar8
+; CMDR Aeldar8
 ;-----------------------
 ; PIP Management Hotkeys for Elite Dangerous
 ;-----------------------
