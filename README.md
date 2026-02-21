@@ -22,3 +22,5 @@ Double click the `pip-management-hotkeys.ahk`.
 ## Links
 
 - [Pips Combinations by keys](https://gist.github.com/Kubuxu/62990a1b5a582e3b7d54)
+- [CMDR Bracus Loremane's original script and audio files](https://steamcommunity.com/app/359320/discussions/0/1652171126116562855/)
+

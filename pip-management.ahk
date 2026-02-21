@@ -1,6 +1,9 @@
 ; AutoHotKey script
 ; 2025-08-17
-; CMDR Aeldar8
+; CMDR aeldar8
+;-----------------------
+; Based on CMDR Bracus Loremane's original script (https://steamcommunity.com/app/359320/discussions/0/1652171126116562855/),
+; adapted for AutoHotkey v2 and Windows 11
 ;-----------------------
 ; PIP Management Hotkeys for Elite Dangerous
 ;-----------------------
